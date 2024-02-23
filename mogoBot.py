@@ -6,11 +6,11 @@ REQUEST = ["LF", "LF:", "HAVE", "HAVE:"]
 def main():
     #reddit instance
     reddit = praw.Reddit(
-        client_id="17jlOisn-5oCfbnlSxO0ng",
-        client_secret="sJIpnyR1gOBjKXg3D71NEHodl4MRVA",
+        client_id="",
+        client_secret="",
         user_agent="TRADE (by u/mogoBot)",
-        password="Fullerton30!",
-        username="mogoBot"
+        password="",
+        username=""
     )
     #The subreddit we want to iterate through
     subreddit = reddit.subreddit("MonopolyGoTrading")
